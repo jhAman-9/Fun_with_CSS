@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .para {
+            overflow: scroll;
+            border: 2px solid black;
+            background-color: #64aff1;
+            padding: 20px;
+            margin: 20px;
+            padding: 10px;
+            height: 200px
+        }
+
+        .box{
+            position: absolute;
+            width : 100px;
+            height : 100px;
+            font-size: 20px;
+            color: #7b0e0a;
+        }
+        .box_1{
+            z-index: 1;
+            background-color:rgb(255, 3, 3);
+        }
+        .box_2{
+            top: 300px;
+            left:50px;
+            z-index: 2;
+            background-color: yellow;
+
+        }
+
+        .box_3{
+            background-color: blue;
+            top: 350px;
+            left: 100px;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur quas vitae, deleniti maxime accusamus consequatur, nostrum debitis voluptatum reiciendis asperiores necessitatibus tempore provident, ab placeat dignissimos atque at! Exercitationem in tenetur tempora repellat at sint, similique iusto quibusdam illum, excepturi voluptatum distinctio voluptatem, soluta possimus vel veniam illo aliquid consequuntur repellendus id quo facere laudantium! Laboriosam voluptatum nam nihil laborum obcaecati sed quo ipsum veniam eum nulla voluptatibus ea iure eius fugiat asperiores beatae nemo, commodi fugit eaque ut. Ducimus labore dolore mollitia consequatur, nemo officia amet debitis eum totam, quidem praesentium aperiam recusandae soluta maiores dolor corporis quasi! Quaerat, ab facere architecto mollitia illum sapiente omnis alias dignissimos itaque sint perferendis, voluptatem placeat. Veritatis rem aut numquam tempore vel unde, nemo repellat rerum eveniet, ad explicabo dolores? Ipsam illum quis nisi necessitatibus, aperiam nihil nam ratione quibusdam. Atque blanditiis, delectus voluptatem ipsa tempore debitis, laborum ipsum suscipit doloremque a praesentium! Cupiditate, repellat placeat quasi provident vitae voluptatem doloribus maxime quas blanditiis praesentium. Praesentium et soluta illo placeat quae facilis! Iure soluta fugit quas! Asperiores velit unde quisquam vitae numquam quam est pariatur iusto architecto saepe. Omnis, provident quia dicta fugit ex ducimus? Maxime omnis eum ullam corporis error amet doloremque, odio quaerat laudantium cum incidunt perspiciatis aperiam ut. Deserunt ad corporis, error vel deleniti voluptates non obcaecati distinctio placeat quas veniam, eius officiis libero minus optio repudiandae exercitationem. Consequatur inventore animi earum nihil deserunt reiciendis aliquid quae suscipit sed ab. Natus ullam illo officiis repudiandae quidem delectus et!
+    </p>
+
+    <div class="container">
+        <div class="box box_1">z-index 1</div>
+        <div class="box box_2">z-index 2</div>
+        <div class="box box_3">z-index 3</div>
+    </div>
+    
+</body>
+</html>
