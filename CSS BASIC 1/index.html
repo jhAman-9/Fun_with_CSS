@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+
+    <style>
+        /* Unversal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* tag or type selector */
+        h1 {
+            background-color: #787878;
+        }
+
+        .bg-orange {
+            background-color: orange;
+        }
+        
+        /* Id > class */
+        #bg-green{
+            background-color: green;
+        }
+        
+        .bg-red {
+            background-color: red;
+        }
+
+        a[target = "_parent"] {
+            background-color: #500571;
+            color: aliceblue;
+        }
+
+        /* Group selector */
+        h1 , h2, h3 {
+            background-color: #500571;
+        }
+
+        /* Decendent Selector */
+        ul li {
+            background-color: aqua;
+        }
+        /* Header ka direct child */
+        header > a {
+            background-color: rgb(147, 12, 12);
+        }
+
+        /* Sibling */
+        img ~ p{
+            background-color: yellow;
+        }
+
+        /* Adjecnet Selector (img ke just adjecent bala)*/
+        img + p{    
+            background-color: rgb(43, 201, 82);
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>This is going to my webpage</h1>
+    <p class="bg-orange">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi deleniti impedit quod corrupti nihil adipisci amet error cum nisi provident?</p>
+
+    <p class="bg-red" id="bg-green">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo perferendis dolor nihil repellendus amet fugiat. Quibusdam architecto autem perspiciatis. Quis.</p>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum itaque quaerat numquam officia harum nulla quo? Ad quaerat reprehenderit nam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis magni nisi sint perspiciatis laborum non sed eos ut omnis placeat!</p>
+    
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h1>
+    <h3>Lorem ipsum dolor sit amet.</h1>
+
+    <a target="_parent" href="https://pw.com">pw.com</a>
+    <a target="_blank" href="https://youtube.com">youtube.com</a> -->
+
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h1>
+    <h3>Lorem ipsum dolor sit amet.</h1>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <li>four</li>
+
+    <header>
+        <a href="#">Google</a>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <a href="#"> Logo</a>
+            </ul>
+        </nav>
+        <a href="#">Tictol</a>
+    </header>
+
+    <div>
+        <img src="#" alt="">
+        <p>Change me</p>
+        <p>Change me to</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin padding boarder outline</title>
+    <style>
+        .elementOne {
+            background-color: rgb(33, 162, 213);
+            margin: 10px 20px 30px 40px ;
+            margin-right: 40px;
+        }
+
+        .boxTwo {
+            background-color: aqua;
+            padding: 10px 20px 30px 40px;
+
+            border-top-width: 20px;
+            border-bottom-width: 25px;
+            border-left-width: 10px;
+            border-color: rgb(227, 12, 55);
+            border-style: solid;
+            border-radius: 40px;
+
+
+            border-top-style: dashed;
+            border-right-style: dotted;
+            border-bottom-style: solid;
+            border-left-style: inset;
+        }
+
+        .boxThree {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: aqua;
+            border: solid 10px rgb(184, 25, 184)
+        }
+
+        .boxOne {
+            background-color: pink;
+            margin: 3rem;
+            outline-offset: 10px;
+            outline-style: solid;
+            outline-color: rgb(237, 222, 20);
+            border-style:inset;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="elementOne">element 1</div>
+    <div class="elementTwo">element 2</div>
+    <div class="elemenThree">element 3</div>
+
+    <div class="boxOne">
+        <h1 class="heading"> padding 1 </h1>
+    </div>
+    <div class="boxTwo">
+        <h1 class="heading"> padding 2 </h1>
+    </div>
+    <div class="boxThree">
+        <h1 class="heading"> padding 3</h1>
+    </div>
+    
+</body>
+</html>

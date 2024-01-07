@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* h1 ke upper arrow the glow */
+        h1:hover{
+            background-color: aqua;
+        }
+        /* On click then change */
+        button:focus{
+            background-color: black;
+        }
+        input:disabled{
+            background-color: rgb(37, 45, 30);
+        }
+        div:first-child{
+            background-color: rgb(212, 130, 24);
+        }
+        div:last-child{
+            background-color: rgb(68, 201, 38);
+        }
+        div:nth-child(2n){
+            background-color: rgb(46, 84, 221);
+        }
+
+        /*  Special */
+        h2:after{
+            content: "After";
+            color: red;
+            height: 20;
+            width: 20;
+        }
+        h2::before{
+            content: "before";
+            color: red;
+            height: 20;
+            width: 20;
+        }
+
+        p::first-line{
+            color: rgb(71, 175, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <input type="checkbox" name="" id="">
+    <button>Submit</button>
+
+    <h1>Hover</h1>
+    <button>Focus</button>
+    <input type="text" required="true"/>
+    <input type="checkbox"/>
+    <input type="text" disabled="true"/>
+
+    <div>
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>four</div>
+        <div>Five</div>
+    </div>
+
+    <h2>Psedu Selector</h2>
+    <h3>First letter Selctor</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa, voluptatibus fuga fugit error et omnis quia suscipit non dolore.</p>
+
+</body>
+</html>

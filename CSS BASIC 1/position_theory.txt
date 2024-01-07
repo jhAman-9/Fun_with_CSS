@@ -1,0 +1,12 @@
+Layout Techniques
+    Normal Layout
+    Float Layout
+    Flex Layout
+    Grod Layout
+
+Positioning Techniques
+    Static Positioning
+    Relative Positioning
+    Absolute Positioning
+    Fixed Positioning
+    Sticky Positioning

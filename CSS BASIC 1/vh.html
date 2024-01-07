@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewheight viewport</title>
+    <style>
+        
+        .base{
+            background-color: rgb(157, 18, 157);
+        }
+
+        .box{
+            width: 250px;
+            border : 2px solid;
+        }
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .vw50{
+            width: 50vw;
+        }
+        .vh50 {
+            width: 50vh;
+        }
+        .rems l1 {
+            font-size: 2.5rem;
+        }
+        
+        /* 100vmin = 100vw or 100vh whichever is smaller */
+        .min{
+            background-color: violet;
+            height: 100vmin;
+            width: 50vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="base fifty-percent">50%</div>
+    <div class="base vw50">50vw</div>
+    <div class="base vh50">50vh</div>
+
+    <h1 style="border: 10px solid;">Hey, I am Aman Kumar Jha</h1>
+
+    <div class="box">
+        <div class="base fifty-percent">50%</div>
+        <div class="base vw50">50vw</div>
+        <div class="base vh50">50vh</div>
+    </div>
+
+    <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <l1>Three A</l1>
+                <l1>Three B 
+                    <ul>
+                        <l1>Three B 1 </l1>
+                    </ul>
+                </l1>
+            </ul>
+        </li>
+
+        <div class="min"></div>
+</ul>
+</body>
+</html>
