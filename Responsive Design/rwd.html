@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height : 100vh;
+        }
+
+        h1{
+            color: #aeaeae;
+        }
+
+        @media screen and (max-width: 576px) {
+            .box{
+                background-color: #eb14e1;
+            }
+        }
+
+        /* @media screen and (min-width: 567px){
+            .box{
+                background-color: rgb(22, 199, 243);
+            }
+        } */
+
+
+        @media screen and (min-width:576px){
+            .box{
+                background-color: yellow;
+            } 
+        }
+        @media screen and (min-width:720px){
+            .box{
+                background-color: rgb(18, 117, 198);
+            } 
+        }
+        @media screen and (min-width:1080px){
+            .box{
+                background-color: rgb(23, 191, 84);
+            } 
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <h1 class="screen">Width</h1>
+    </div>
+    
+</body>
+</html>

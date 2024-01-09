@@ -1,0 +1,24 @@
+Advantage Of RWD
+    Improved User Experience
+    Incerase Mobile TRAFFIC
+    Cost And Time Efficiency
+    Search Engine Optimization (SEO) Benefits
+
+Ways to Implement Reponsive Web Design
+    Reponsive Layouts
+    Reponsive images
+    Media Queries
+    Reponsive Typography
+    The View Port Meta Tag
+    
+
+Media :
+    all
+    screen
+    print 
+    speech
+
+Operator :
+    And
+    OR
+    
