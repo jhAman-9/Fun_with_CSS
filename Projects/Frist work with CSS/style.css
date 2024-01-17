@@ -8,8 +8,8 @@ p{
     position : sticky;
     top: 0px;
     width: 100%;
-    box-shadow: opx 2px 10px rgb(233, 242, 59);
-    background: rgb(239, 99, 99);
+    box-shadow: opx 2px 10px rgb(75, 112, 243);
+    background: rgb(87, 221, 230);
 }
 
 .navbar-nav{
@@ -41,7 +41,7 @@ article h1 {
 }
 
 .content {
-    background: linear-gradient(red ,blue);
+    background: linear-gradient(#ccc,#1e1f26);
     padding: 10px 80px;
 }
 
