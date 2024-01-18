@@ -36,7 +36,6 @@ body{
 }
 
 .clock{
-    background-image: url("https://drive.google.com/uc?export=view&id=1SqOy9tGuUOX1cp_GcLEN0BqTfYMEV11Z");
     min-height: 18rem;
     min-width: 18em;
     display: flex;
@@ -104,6 +103,7 @@ body{
     height: 13em;
 }
 
+
 .sec:before {
     content: "";
     height: 60%;
@@ -128,4 +128,19 @@ body{
     border-radius: .25rem;
     cursor: pointer;
     transition: all ease 0.2s;
+}
+
+
+.time{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+    margin: 2em auto;
+    bottom: 0;
+    bottom: 10px;
+    border-radius: 10px;
 }

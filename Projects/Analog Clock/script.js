@@ -1,9 +1,12 @@
 const hour = document.querySelector(".hour");
 const min = document.querySelector(".min");
 const sec = document.querySelector(".sec");
+const time = document.querySelector(".time");
+const namee = document.querySelector(".name");
 
 setInterval (()=> {
     let day = new Date();
+    time.innerHTML = day.toLocaleTimeString();
     let hh = day.getHours()*30;
     let mm = day.getMinutes()*6;
     let ss = day.getSeconds()*6;
@@ -26,7 +29,7 @@ button.addEventListener('click',(e)=>{
         button.style.backgroundColor = "#ccc";
         button.style.color = "#1e1f26";
         button.innerHTML = "LIGHT";
-        pageHead.style.color = e.target.id;  
+        pageHead.style.color = e.target.id;
     }
     else {  // Light
         body.style.backgroundColor = e.target.id;
@@ -36,6 +39,5 @@ button.addEventListener('click',(e)=>{
         button.style.color = '#ccc'
         button.innerHTML = "DARK";
         pageHead.style.color = "#888888";
-        
     } 
 },false)
