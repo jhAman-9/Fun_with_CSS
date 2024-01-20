@@ -14,6 +14,7 @@ body{
 h1{
     text-align: center;
     margin: 100px auto 50px;
+    font-weight: 600;
 }
 
 form{
@@ -24,7 +25,7 @@ form{
     background-color: #434989;
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 form input{
@@ -35,8 +36,8 @@ form input{
     background-color: transparent;
     color: #fff;
     font-size: 18px;
-    font-weight: 600;
-    padding: 30px;
+    /* font-weight: 600; */
+    padding: 0 30px;
 }
 
 form button{
@@ -65,13 +66,13 @@ form button{
     padding: 10px 20px;
     border-radius: 4px;
     margin: 10px auto 100px;
-    cursor: pointer;
     display:none;
+    cursor: pointer;
 }
 
 #search_result {
     width: 80%;
-    margin: 100px auto 50%;
+    margin: 100px auto 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
@@ -83,4 +84,5 @@ form button{
     object-fit: cover;
     border-radius: 5px;
 }
+
 

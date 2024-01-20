@@ -1,6 +1,6 @@
 const accesskey = "-JjSC95Dw2Cu3ZapQvduYLRlMdZJ6N3g2EwZRO-oJkQ"
 const search_form = document.querySelector("#search_form")
-const search_box = document.querySelector("#search-box")
+const search_box = document.querySelector("#search_box")
 const search_result= document.querySelector("#search_result")
 const show_more = document.querySelector("#show_more") 
 
@@ -15,10 +15,10 @@ async function searchImage(){
     const data = await response.json();
 
     if(page === 1) {
-        search_result.innerHTML = "";
+        search_result.innerHTML ="";
     }
-    const results = data.results;
 
+    const results = data.results;
     results.map((result) =>{
         const image = document.createElement("img");
         image.src = result.urls.small;
