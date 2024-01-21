@@ -11,6 +11,23 @@ body{
 
 }
 
+.des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+}
+
+.ele{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
 h1{
     text-align: center;
     margin: 100px auto 50px;
@@ -25,7 +42,7 @@ form{
     background-color: #434989;
     display: flex;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 form input{
@@ -36,7 +53,7 @@ form input{
     background-color: transparent;
     color: #fff;
     font-size: 18px;
-    /* font-weight: 600; */
+    font-weight: 600;
     padding: 0 30px;
 }
 
