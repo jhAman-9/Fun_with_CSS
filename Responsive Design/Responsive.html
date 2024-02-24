@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respomsive Navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(216, 203, 240);
+            font-family: serif;
+            height: 100vh;
+        }
+        .logo{
+            width: 100px;
+        }
+
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+            height: 6rem;
+            background: #112240;
+        }
+
+        .nav-list{
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            list-style: none;
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+        .nav-link{
+            text-decoration: none;
+        }
+
+        .nav-link:link,
+        .nav-link:visited{
+            color: antiquewhite; 
+            font-size: 1.2rem;
+            font-weight: 400;
+
+        }
+
+        .nav-link:hover,
+        .nav-link:active{
+            color: red;
+            font-weight: 400;
+
+        }
+
+        .nav-link.login:visited,
+        .nav-link.login:link{
+            background-color: #f34e4e;
+            color: #112240;
+            padding: 10px 30px;
+            border-radius: 15px;
+        }
+        .nav-link .login:hover,
+        .nav-link .login:link{
+            background-color: #f34e4e;
+            color: #112240;
+            padding: 10px 30px;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <img class="logo" src="./pexels-hitesh-choudhary-18148936.jpg" alt="">
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <l1><a href="#" class="nav-link">Home</a></l1>
+                <l1><a href="#" class="nav-link">Blog</a></l1>
+                <l1><a href="#" class="nav-link">About Us</a></l1>
+                <l1><a href="#" class="nav-link">Service</a></l1>
+                <l1><a href="#" class="nav-link login">Login</a></l1>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
