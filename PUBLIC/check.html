@@ -5,9 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Tailwind</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* .p{
+            top: 50%;
+            position: relative;
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            
+           
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c{
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+        } */
+
+
+        /* anoter way to center div */
+        .p{
+            background-color: yellow;
+            position: relative;
+            height: 200px;
+            width: 200px;
+           
+        }
+        .c{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: transform(-50%, -50%);
+        }
+
+/* 
+        .p{
+            display: grid;
+            place-items: center;
+            height: 200px;
+            width: 200px;
+        }
+        .c{
+             background-color: yellow;
+            height: 100px;
+            width: 100px;
+        } */
+
+    </style>
 </head>
 <body>
-    <h1 class="bg-red-400"> hello brooo..</h1>
-    
+    <div class="p"> parent
+        <div class="c">
+            child
+        </div>
+    </div>    
 </body>
 </html>
